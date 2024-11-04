@@ -218,8 +218,8 @@ body:
         Was generative AI used to create this issue?
   	default: 'yes'
   	options:
-  	  - yes: 'Yes'
-  	    no: 'No'
+      - yes: 'Yes'
+        no: 'No'
   - type: 'checkboxes'
     id: 'checklist'
     attributes:
