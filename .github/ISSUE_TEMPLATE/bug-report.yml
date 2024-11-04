@@ -212,8 +212,8 @@ body:
         Generative AI
       description: |
         Was generative AI used to create this issue?
-  	default: 'yes'
-  	options:
+    default: 'yes'
+    options:
       - yes: 'Yes'
         no: 'No'
   - type: 'checkboxes'
