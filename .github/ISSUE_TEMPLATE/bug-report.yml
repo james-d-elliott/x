@@ -215,6 +215,8 @@ body:
       options:
         - 'Yes'
         - 'No'
+    validations:
+      required: true
   - type: 'checkboxes'
     id: 'checklist'
     attributes:
