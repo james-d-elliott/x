@@ -212,11 +212,9 @@ body:
         Generative AI
       description: |
         Was generative AI used to create this issue?
-    validations:
-      required: true
-    options:
-      - 'Yes'
-      - 'No'
+      options:
+        - 'Yes'
+        - 'No'
   - type: 'checkboxes'
     id: 'checklist'
     attributes:
