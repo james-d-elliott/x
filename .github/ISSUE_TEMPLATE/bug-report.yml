@@ -205,14 +205,14 @@ body:
         Provide any relevant specification or other documentation if applicable.
     validations:
       required: false
-  - type: 'radio'
+  - type: 'dropdown'
     id: 'ai'
     attributes:
       label: |
         Generative AI
       description: |
         Was generative AI used to create this issue?
-    default: 'yes'
+    required: true
     options:
       - yes: 'Yes'
         no: 'No'
